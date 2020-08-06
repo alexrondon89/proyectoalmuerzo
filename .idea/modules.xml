@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/almuerzos/almuerzos.iml" filepath="$PROJECT_DIR$/almuerzos/almuerzos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deleteClients/deleteClients.iml" filepath="$PROJECT_DIR$/deleteClients/deleteClients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/editClients/editClients.iml" filepath="$PROJECT_DIR$/editClients/editClients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modelClients/modelClients.iml" filepath="$PROJECT_DIR$/modelClients/modelClients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/proyectoAlmuerzo.iml" filepath="$PROJECT_DIR$/.idea/proyectoAlmuerzo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signInClients/signInClients.iml" filepath="$PROJECT_DIR$/signInClients/signInClients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signUpClients/signUpClients.iml" filepath="$PROJECT_DIR$/signUpClients/signUpClients.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9be1140b-6dcc-4f26-a6eb-e54f168b6e82" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="proyectoAlmuerzo" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1duvdpJXCchCFEPBpRqhiULxPLW" />
+  <component name="PropertiesComponent">
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/signInClientes/src/main/java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/almuerzos/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/modelClients/src/main/java/modelClients" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="AWS Lambda.[Remote] SignUpClients">
+    <configuration name="[Local] SignInClientsHandler" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-east-1" />
+      <option name="debugHost" value="localhost" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" value="com.amazonaws.lambda.signinclients.SignInClientsHandler" />
+      <option name="logicalFunctionName" />
+      <option name="memorySize" value="128" />
+      <option name="runtime" value="java8" />
+      <option name="templateFile" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="false" />
+      <option name="input" value="{&quot;email&quot;:  &quot;aaa&quot;, &quot;password&quot;: &quot;aa&quot;}" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" value="" />
+        <option name="additionalLocalArgs" value="" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" value="" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
+    </configuration>
+    <configuration name="[Remote] DeleteClients" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-east-1" />
+      <option name="functionName" value="DeleteClients" />
+      <option name="input" value="{&quot;email&quot;: &quot;uno&quot;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="[Remote] EditClients" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-east-1" />
+      <option name="functionName" value="EditClients" />
+      <option name="input" value="{&quot;email&quot;: &quot;kribol&quot;,&#10; &quot;password&quot;:  &quot;cristhian&quot;,&#10; &quot;phone&quot;:  &quot;nuevo numero&quot;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="[Remote] SignInClients" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-east-1" />
+      <option name="functionName" value="SignInClients" />
+      <option name="input" value="{&quot;email&quot;: &quot;cristhian&quot;, &quot;password&quot;: &quot;rondon&quot;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="[Remote] SignUpClients" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-east-1" />
+      <option name="functionName" value="SignUpClients" />
+      <option name="input" value="{&#10;  &quot;email&quot;: &quot;kribol&quot;,&#10;  &quot;fullName&quot;: &quot;dos&quot;,&#10;  &quot;phone&quot;: &quot;tres&quot;, &quot;password&quot;:  &quot;kribol&quot;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="AWS Lambda.[Local] SignInClientsHandler" />
+      <item itemvalue="AWS Lambda.[Remote] SignInClients" />
+      <item itemvalue="AWS Lambda.[Remote] SignUpClients" />
+      <item itemvalue="AWS Lambda.[Remote] EditClients" />
+      <item itemvalue="AWS Lambda.[Remote] DeleteClients" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="AWS Lambda.[Remote] SignUpClients" />
+        <item itemvalue="AWS Lambda.[Remote] SignInClients" />
+        <item itemvalue="AWS Lambda.[Remote] EditClients" />
+        <item itemvalue="AWS Lambda.[Remote] DeleteClients" />
+        <item itemvalue="AWS Lambda.[Local] SignInClientsHandler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9be1140b-6dcc-4f26-a6eb-e54f168b6e82" name="Default Changelist" comment="" />
+      <created>1593287882770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593287882770</updated>
+    </task>
+    <servers />
+  </component>
+</project>
