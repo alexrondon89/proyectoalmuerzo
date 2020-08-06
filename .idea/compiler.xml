@@ -9,6 +9,7 @@
         <module name="signUpClients" />
         <module name="deleteClients" />
         <module name="editClients" />
+        <module name="modelLunch" />
         <module name="signInClients" />
         <module name="almuerzos" />
       </profile>
@@ -21,6 +22,7 @@
       <module name="editClients" target="1.8" />
       <module name="modelaClients" target="1.8" />
       <module name="modelClients" target="1.8" />
+      <module name="modelLunch" target="1.8" />
       <module name="signInClients" target="1.8" />
       <module name="signUpClients" target="1.8" />
       <module name="webAlmuerzo" target="1.5" />

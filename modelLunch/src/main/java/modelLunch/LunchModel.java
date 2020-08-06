@@ -1,9 +1,9 @@
-package modelClients;
+package modelLunch;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.*;
 
 @DynamoDBTable(tableName = "Clients")
-public class ClientsModel {
+public class LunchModel {
 	
     private String fullName;
     private String email;
@@ -12,7 +12,7 @@ public class ClientsModel {
     private String createdDate;
     private String updatedDate;
 
-    public ClientsModel(String email, String fullName, String password, String phone, String createdDate, String updatedDate) {
+    public LunchModel(String email, String fullName, String password, String phone, String createdDate, String updatedDate) {
     	this.email = email;
     	this.fullName = fullName;
     	this.password = password;
@@ -21,7 +21,7 @@ public class ClientsModel {
     	this.updatedDate = updatedDate;
     }
     
-    public ClientsModel() {
+    public LunchModel() {
     	
     }
 

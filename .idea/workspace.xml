@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9be1140b-6dcc-4f26-a6eb-e54f168b6e82" name="Default Changelist" comment="" />
+    <list default="true" id="9be1140b-6dcc-4f26-a6eb-e54f168b6e82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelLunch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/DynamoInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchConstantsValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchCrud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchEnumsErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/MapperDynamoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelClients/src/main/java/modelClients/ClientsDynamoFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelClients/src/main/java/modelClients/ClientsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/modelClients/src/main/java/modelClients/ClientsModel.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -27,9 +47,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1duvdpJXCchCFEPBpRqhiULxPLW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modelLunch/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -40,6 +62,7 @@
       <recent name="$PROJECT_DIR$/signInClientes/src/main/java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modelLunch/src/main/java" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/almuerzos/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/modelClients/src/main/java/modelClients" />
@@ -144,5 +167,16 @@
       <updated>1593287882770</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
