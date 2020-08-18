@@ -1,6 +1,12 @@
 package modelClients;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @DynamoDBTable(tableName = "Clients")
 public class ClientsModel {

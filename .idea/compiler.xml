@@ -9,8 +9,9 @@
         <module name="signUpClients" />
         <module name="deleteClients" />
         <module name="editClients" />
-        <module name="modelLunch" />
+        <module name="peopleBase" />
         <module name="signInClients" />
+        <module name="projectBase" />
         <module name="almuerzos" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,8 @@
       <module name="modelaClients" target="1.8" />
       <module name="modelClients" target="1.8" />
       <module name="modelLunch" target="1.8" />
+      <module name="peopleBase" target="8" />
+      <module name="projectBase" target="1.5" />
       <module name="signInClients" target="1.8" />
       <module name="signUpClients" target="1.8" />
       <module name="webAlmuerzo" target="1.5" />

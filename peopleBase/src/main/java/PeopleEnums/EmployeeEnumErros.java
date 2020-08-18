@@ -1,27 +1,27 @@
-package modelLunch;
+package PeopleEnums;
 
 import java.util.HashMap;
 
-public enum LunchEnumsErrors {
+public enum EmployeeEnumErros {
 
     INTERNAL_SERVER_ERROR("Internal Server Error", "999", "500"),
-    CLIENT_NOT_FOUND("Cliente no existe", "1001", "400"),
-    PAYLOAD_ERROR("Hubo un error en el payload enviado", "1002","400"),
-    DUPLICATED_USER("Email ya registrado", "1003", "400");
+    EMPLOYEE_NOT_FOUND("Empleado no existe", "2001", "400"),
+    PAYLOAD_ERROR("Hubo un error en el payload enviado", "2002","400"),
+    DUPLICATED_EMPLOYEE("Email ya registrado", "2003", "400");
 
     private String message;
     private String code;
     private String httpStatus;
-    private HashMap<String, Object> mapError;
+    private HashMap<String, String> mapError;
 
-    private LunchEnumsErrors(String message, String code, String httpStatus){
+    private EmployeeEnumErros(String message, String code, String httpStatus){
         this.message = message;
         this.code = code;
         this.httpStatus = httpStatus;
         this.mapError = new HashMap<>();
     }
 
-    public HashMap<String, Object> getMapError() {
+    public HashMap<String, String> getMapError() {
         mapError.put("message", message);
         mapError.put("code", code);
         mapError.put("httpStatus", httpStatus);

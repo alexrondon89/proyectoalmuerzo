@@ -1,9 +1,9 @@
-package modelLunch;
+package PeopleUtils;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 
-public class LunchConstantsValidation {
+public class CustomerArgumentsValidation {
 
     public static HashSet signUpArguments(){
         ArrayList<String> signUpArguments = new ArrayList<>();

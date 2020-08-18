@@ -10,7 +10,9 @@
         <option value="$PROJECT_DIR$/modelClients/pom.xml" />
         <option value="$PROJECT_DIR$/webAlmuerzo/pom.xml" />
         <option value="$PROJECT_DIR$/almuerzos/pom.xml" />
-        <option value="$PROJECT_DIR$/modelLunch/pom.xml" />
+        <option value="$PROJECT_DIR$/baseProject/pom.xml" />
+        <option value="$PROJECT_DIR$/projectBase/pom.xml" />
+        <option value="$PROJECT_DIR$/peopleBase/pom.xml" />
       </list>
     </option>
   </component>

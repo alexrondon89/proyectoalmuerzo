@@ -6,7 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/deleteClients/deleteClients.iml" filepath="$PROJECT_DIR$/deleteClients/deleteClients.iml" />
       <module fileurl="file://$PROJECT_DIR$/editClients/editClients.iml" filepath="$PROJECT_DIR$/editClients/editClients.iml" />
       <module fileurl="file://$PROJECT_DIR$/modelClients/modelClients.iml" filepath="$PROJECT_DIR$/modelClients/modelClients.iml" />
-      <module fileurl="file://$PROJECT_DIR$/modelLunch/modelLunch.iml" filepath="$PROJECT_DIR$/modelLunch/modelLunch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/peopleBase/peopleBase.iml" filepath="$PROJECT_DIR$/peopleBase/peopleBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projectBase/projectBase.iml" filepath="$PROJECT_DIR$/projectBase/projectBase.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/proyectoAlmuerzo.iml" filepath="$PROJECT_DIR$/.idea/proyectoAlmuerzo.iml" />
       <module fileurl="file://$PROJECT_DIR$/signInClients/signInClients.iml" filepath="$PROJECT_DIR$/signInClients/signInClients.iml" />
       <module fileurl="file://$PROJECT_DIR$/signUpClients/signUpClients.iml" filepath="$PROJECT_DIR$/signUpClients/signUpClients.iml" />

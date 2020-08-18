@@ -2,22 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9be1140b-6dcc-4f26-a6eb-e54f168b6e82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/DynamoInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchConstantsValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchCrud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchEnumsErrors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchErrors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/MapperDynamoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleBase/peopleBase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleBase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleBase/src/main/java/PeopleBase/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleBase/src/main/java/PeopleBase/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleBase/src/main/java/PeopleBase/PeopleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleBase/src/main/java/PeopleBase/PeopleInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleBase/src/main/java/PeopleEnums/EmployeeEnumErros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleBase/src/main/java/PeopleErrors/CustomerErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleBase/src/main/java/PeopleErrors/EmployeeErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleBase/src/main/java/PeopleUtils/EncrytionAndDecrytionPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleBase/src/main/java/PeopleUtils/GenerateDates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleBase/src/main/java/PeopleUtils/GenerateResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectBase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectBase/src/main/java/ProjectBase/DynamoClientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectBase/src/main/java/ProjectBase/DynamoInvoker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelClients/src/main/java/modelClients/ClientsDynamoFactory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/modelClients/src/main/java/modelClients/ClientsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/modelClients/src/main/java/modelClients/ClientsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelLunch/modelLunch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projectBase/projectBase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelLunch/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/DynamoInvoker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchConstantsValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/peopleBase/src/main/java/PeopleUtils/CustomerArgumentsValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchCrud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchEnumsErrors.java" beforeDir="false" afterPath="$PROJECT_DIR$/peopleBase/src/main/java/PeopleEnums/CustomerEnumErrors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchErrors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/MapperDynamoFactory.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
       </list>
@@ -52,7 +67,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/modelLunch/src/main/java" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
