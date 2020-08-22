@@ -1,4 +1,4 @@
-package com.amazonaws.lambda.signupclients;
+package LambdaSignUpCustomer;
 
 import java.util.HashMap;
 import java.util.Map;
