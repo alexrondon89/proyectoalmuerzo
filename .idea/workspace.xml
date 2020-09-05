@@ -2,22 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9be1140b-6dcc-4f26-a6eb-e54f168b6e82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/DynamoInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchConstantsValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchCrud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchEnumsErrors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchErrors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/LunchUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelLunch/src/main/java/modelLunch/MapperDynamoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelClients/src/main/java/modelClients/ClientsDynamoFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelClients/src/main/java/modelClients/ClientsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/modelClients/src/main/java/modelClients/ClientsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaDeleteCustomer/LambdaDeleteCustomer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaDeleteCustomer/LambdaDeleteCustomer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaDeleteCustomer/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaDeleteCustomer/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaDeleteCustomer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaDeleteCustomer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaDeleteCustomer/src/main/java/LambdaDeleteCustomer/DeleteCustomerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaDeleteCustomer/src/main/java/LambdaDeleteCustomer/DeleteCustomerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaDeleteCustomer/target/classes/com/amazonaws/lambda/deleteclients/DeleteClientsHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaDeleteCustomer/target/deleteClients-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaDeleteCustomer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaDeleteCustomer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaDeleteCustomer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaDeleteCustomer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaDeleteCustomer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaDeleteCustomer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaDeleteCustomer/target/original-deleteClients-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaEditCustomer/LambdaEditCustomer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaEditCustomer/LambdaEditCustomer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaEditCustomer/src/main/java/LambdaEditCustomer/EditCustomerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaEditCustomer/src/main/java/LambdaEditCustomer/EditCustomerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaEditCustomer/target/LambdaEditCustomer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaEditCustomer/target/LambdaEditCustomer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaEditCustomer/target/classes/LambdaEditCustomer/EditCustomerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaEditCustomer/target/classes/LambdaEditCustomer/EditCustomerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaEditCustomer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaEditCustomer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaEditCustomer/target/original-LambdaEditCustomer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaEditCustomer/target/original-LambdaEditCustomer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaSignInCustomer/src/main/java/LambdaSignInCustomer/SignInCustomerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaSignInCustomer/src/main/java/LambdaSignInCustomer/SignInCustomerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaSignInCustomer/target/LambdaSignInCustomer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaSignInCustomer/target/LambdaSignInCustomer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaSignInCustomer/target/classes/LambdaSignInCustomer/SignInCustomerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaSignInCustomer/target/classes/LambdaSignInCustomer/SignInCustomerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaSignInCustomer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaSignInCustomer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaSignInCustomer/target/original-LambdaSignInCustomer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaSignInCustomer/target/original-LambdaSignInCustomer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaSignUpCustomer/LambdaSignUpCustomer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaSignUpCustomer/LambdaSignUpCustomer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaSignUpCustomer/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaSignUpCustomer/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaSignUpCustomer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaSignUpCustomer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaSignUpCustomer/src/main/java/LambdaSignUpCustomer/SignUpCustomerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaSignUpCustomer/src/main/java/LambdaSignUpCustomer/SignUpCustomerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaSignUpCustomer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/LambdaSignUpCustomer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaSignUpCustomer/target/original-signUpClients-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LambdaSignUpCustomer/target/signUpClients-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleBase/PeopleBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleBase/PeopleBase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleBase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleBase/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleBase/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleBase/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleBase/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleBase/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleBase/PeopleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleBase/PeopleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleBase/PeopleInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleBase/PeopleInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleCrud/CustomerCrud.java" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleCrud/CustomerCrud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleErrors/CustomerErrors.java" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleErrors/CustomerErrors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleErrors/EmployeeErrors.java" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleErrors/EmployeeErrors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleUtils/CustomerArgumentsValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleUtils/CustomerArgumentsValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleUtils/GenerateResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleBase/src/main/java/PeopleUtils/GenerateResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectBase/ProjectBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectBase/ProjectBase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectBase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectBase/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signInClients/target/classes/com/amazonaws/lambda/signinclients/SignInClientsHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signInClients/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signInClients/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signInClients/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signUpClients/target/classes/com/amazonaws/lambda/signupclients/SignUpClientsHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signUpClients/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signUpClients/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signUpClients/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +68,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
       </list>
@@ -80,37 +118,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="AWS Lambda.[Remote] SignUpClients">
-    <configuration name="[Local] SignInClientsHandler" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="AWS Lambda.[Remote] EditCustomer">
+    <configuration name="[Remote] DeleteCustomer" type="aws.lambda" factoryName="Remote" nameIsGenerated="true">
       <option name="credentialProviderId" value="profile:default" />
       <option name="regionId" value="us-east-1" />
-      <option name="debugHost" value="localhost" />
-      <option name="environmentVariables">
-        <map />
-      </option>
-      <option name="handler" value="com.amazonaws.lambda.signinclients.SignInClientsHandler" />
-      <option name="logicalFunctionName" />
-      <option name="memorySize" value="128" />
-      <option name="runtime" value="java8" />
-      <option name="templateFile" />
-      <option name="timeout" value="300" />
-      <option name="useTemplate" value="false" />
-      <option name="input" value="{&quot;email&quot;:  &quot;aaa&quot;, &quot;password&quot;: &quot;aa&quot;}" />
-      <option name="inputIsFile" value="false" />
-      <sam>
-        <option name="additionalBuildArgs" value="" />
-        <option name="additionalLocalArgs" value="" />
-        <option name="buildInContainer" value="false" />
-        <option name="dockerNetwork" value="" />
-        <option name="skipImagePull" value="false" />
-      </sam>
-      <method v="2" />
-    </configuration>
-    <configuration name="[Remote] DeleteClients" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
-      <option name="credentialProviderId" value="profile:default" />
-      <option name="regionId" value="us-east-1" />
-      <option name="functionName" value="DeleteClients" />
-      <option name="input" value="{&quot;email&quot;: &quot;uno&quot;}" />
+      <option name="functionName" value="DeleteCustomer" />
+      <option name="input" value="{&quot;email&quot;: &quot;rondon&quot;}" />
       <option name="inputIsFile" value="false" />
       <method v="2" />
     </configuration>
@@ -122,6 +135,14 @@
       <option name="inputIsFile" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="[Remote] EditCustomer" type="aws.lambda" factoryName="Remote" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-east-1" />
+      <option name="functionName" value="EditCustomer" />
+      <option name="input" value="{&#10;  &quot;email&quot;: &quot;rondon&quot;,&#10;  &quot;password&quot;:  &quot;actualizado2&quot;, &quot;fullName&quot;: &quot;actualizado44&quot;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="[Remote] SignInClients" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
       <option name="credentialProviderId" value="profile:default" />
       <option name="regionId" value="us-east-1" />
@@ -130,28 +151,46 @@
       <option name="inputIsFile" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="[Remote] SignInCustomer" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-east-1" />
+      <option name="functionName" value="SignInCustomer" />
+      <option name="input" value="{&#10;  &quot;email&quot;: &quot;buty&quot;,&#10;  &quot;password&quot;: &quot;buty&quot;&#10;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="[Remote] SignUpClients" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
       <option name="credentialProviderId" value="profile:default" />
       <option name="regionId" value="us-east-1" />
       <option name="functionName" value="SignUpClients" />
-      <option name="input" value="{&#10;  &quot;email&quot;: &quot;kribol&quot;,&#10;  &quot;fullName&quot;: &quot;dos&quot;,&#10;  &quot;phone&quot;: &quot;tres&quot;, &quot;password&quot;:  &quot;kribol&quot;}" />
+      <option name="input" value="{&#10;  &quot;email&quot;: &quot;rondon&quot;,&#10;  &quot;fullName&quot;: &quot;dos&quot;,&#10;  &quot;phone&quot;: &quot;tres&quot;, &quot;password&quot;:  &quot;rondon&quot;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="[Remote] SignUpCustomer" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-east-1" />
+      <option name="functionName" value="SignUpCustomer" />
+      <option name="input" value="{&#10;  &quot;email&quot;: &quot;rondon&quot;,&#10;  &quot;fullName&quot;: &quot;dos&quot;,&#10;  &quot;phone&quot;: &quot;tres&quot;, &#10;  &quot;password&quot;:  &quot;rondon&quot;}" />
       <option name="inputIsFile" value="false" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="AWS Lambda.[Local] SignInClientsHandler" />
+      <item itemvalue="AWS Lambda.[Remote] DeleteCustomer" />
+      <item itemvalue="AWS Lambda.[Remote] EditCustomer" />
       <item itemvalue="AWS Lambda.[Remote] SignInClients" />
       <item itemvalue="AWS Lambda.[Remote] SignUpClients" />
       <item itemvalue="AWS Lambda.[Remote] EditClients" />
-      <item itemvalue="AWS Lambda.[Remote] DeleteClients" />
+      <item itemvalue="AWS Lambda.[Remote] SignUpCustomer" />
+      <item itemvalue="AWS Lambda.[Remote] SignInCustomer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="AWS Lambda.[Remote] SignUpCustomer" />
+        <item itemvalue="AWS Lambda.[Remote] SignInCustomer" />
         <item itemvalue="AWS Lambda.[Remote] SignUpClients" />
         <item itemvalue="AWS Lambda.[Remote] SignInClients" />
         <item itemvalue="AWS Lambda.[Remote] EditClients" />
-        <item itemvalue="AWS Lambda.[Remote] DeleteClients" />
-        <item itemvalue="AWS Lambda.[Local] SignInClientsHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +212,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
