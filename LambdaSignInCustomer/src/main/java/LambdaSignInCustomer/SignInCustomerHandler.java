@@ -19,14 +19,14 @@ public class SignInCustomerHandler implements RequestHandler<HashMap<String, Str
     public Object handleRequest(HashMap<String, String> input, Context context) {
 
         try {
-            System.out.println("Request received to signup  client");
+            System.out.println("Request received to signup  customer");
             System.out.println(input.toString());
 
             PeopleInterface customer = PeopleFactory.generateObject("1", input);
             CustomerCrud customerCrud = new CustomerCrud();
 
             CustomerArgumentsValidation.signInArgumentsValidation(input);
-            customer = customerCrud.getCustomerByIndex(customer);
+            customerCrud.getCustomerByIndex(customer);
 
             return GenerateResponse.generateJsonObjectResponse(customer.toString());
 

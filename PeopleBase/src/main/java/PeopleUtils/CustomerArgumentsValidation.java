@@ -1,35 +1,65 @@
 package PeopleUtils;
 
-import java.util.ArrayList;
+import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMappingException;
+
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Set;
 
 public class CustomerArgumentsValidation {
 
-    public static HashSet signUpArguments(){
-        ArrayList<String> signUpArguments = new ArrayList<>();
-        signUpArguments.add("email");
-        signUpArguments.add("fullName");
-        signUpArguments.add("password");
-        signUpArguments.add("phone");
+    public static void signUpArgumentsValidation(HashMap<String, String> input) throws DynamoDBMappingException {
 
-        System.out.println("List or argument necessaries to sigUp a client: " + signUpArguments);
-        return new HashSet<>(signUpArguments);
+        System.out.println("Checking whether sign up arguments are ok ");
+
+        Set<String> signUpArgumentsSet = new HashSet<>();
+        signUpArgumentsSet.add("email");
+        signUpArgumentsSet.add("fullName");
+        signUpArgumentsSet.add("password");
+        signUpArgumentsSet.add("phone");
+
+        Set<String> keys = input.keySet();
+
+        System.out.println("mandatory arguments: "+ signUpArgumentsSet);
+        System.out.println("arguments submitted: "+ keys);
+
+        if (!signUpArgumentsSet.equals(keys)){
+            throw new DynamoDBMappingException();
+        }
+
     }
 
-    public static HashSet signInArguments(){
-        ArrayList<String> signInArguments = new ArrayList<>();
-        signInArguments.add("email");
-        signInArguments.add("password");
+    public static void signInArgumentsValidation(HashMap<String, String> input){
 
-        System.out.println("List or argument necessaries to sigIn a client: " + signInArguments);
-        return new HashSet<>(signInArguments);
+        System.out.println("Checking whether sign in arguments are ok ");
+
+        Set<String> signInArgumentsSet = new HashSet<>();
+        signInArgumentsSet.add("email");
+        signInArgumentsSet.add("password");
+
+        Set<String> keys = input.keySet();
+
+        System.out.println("mandatory arguments: "+ signInArgumentsSet);
+        System.out.println("arguments submitted: "+ keys);
+
+        if (!signInArgumentsSet.equals(keys)){
+            throw new DynamoDBMappingException();
+        }
     }
 
-    public static HashSet emailArgument(){
-        ArrayList<String> emailArgument = new ArrayList<>();
-        emailArgument.add("email");
+    public static void emailArgumentValidation(HashMap<String, String> input){
+        System.out.println("Checking whether email argument is ok ");
 
-        System.out.println("List or argument necessaries to edit a client: " + emailArgument);
-        return new HashSet<>(emailArgument);
+        Set<String> argumentSet = new HashSet<>();
+        argumentSet.add("email");
+
+        Set<String> keys = input.keySet();
+
+        System.out.println("mandatory arguments: "+ argumentSet);
+        System.out.println("arguments submitted: "+ keys);
+
+        if (!argumentSet.equals(keys)){
+            throw new DynamoDBMappingException();
+        }
     }
 }

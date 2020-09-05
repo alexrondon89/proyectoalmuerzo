@@ -9,8 +9,6 @@ import PeopleUtils.GenerateResponse;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMappingException;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
-import modelClients.ClientsCrud;
-import modelClients.ClientsErrors;
 
 import java.util.HashMap;
 
@@ -26,8 +24,8 @@ public class DeleteCustomerHandler implements RequestHandler<HashMap<String, Str
             PeopleInterface customer = PeopleFactory.generateObject("1", input);
             CustomerCrud customerCrud = new CustomerCrud();
 
-            CustomerArgumentsValidation.signInArgumentsValidation(input);
-            customer = customerCrud.getCustomerByIndex(customer);
+            CustomerArgumentsValidation.emailArgumentValidation(input);
+            customerCrud.deleteCustomer(customer);
 
             return GenerateResponse.generateJsonObjectResponse(customer.toString());
 

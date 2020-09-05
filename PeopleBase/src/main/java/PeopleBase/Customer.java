@@ -19,13 +19,9 @@ public class Customer implements PeopleInterface{
         this.fullName = input.get("fullName");
         this.password = EncrytionAndDecrytionPassword.encrypt(input.get("password"));
         this.phone = input.get("phone");
-        this.createdDate = GenerateDates.getCurrentDate();
-        this.updatedDate = GenerateDates.getCurrentDate();
+        this.createdDate = input.get("createdDate");
+        this.updatedDate = input.get("updatedDate");
     }
-//
-//    public Customer() {
-//
-//    }
 
     public String getEmail() {
         return email;

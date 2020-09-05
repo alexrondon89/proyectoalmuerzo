@@ -6,28 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="signUpClients" />
-        <module name="deleteClients" />
-        <module name="editClients" />
-        <module name="peopleBase" />
-        <module name="signInClients" />
-        <module name="projectBase" />
+        <module name="LambdaDeleteCustomer" />
+        <module name="LambdaEditCustomer" />
+        <module name="SignUpCustomer" />
+        <module name="SignUp" />
+        <module name="ProjectBase" />
+        <module name="LambdaSignInCustomer" />
+        <module name="LambdaSignUpCustomer" />
+        <module name="PeopleBase" />
         <module name="almuerzos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="almuerzos" target="1.8" />
       <module name="clients" target="1.8" />
-      <module name="deleteClients" target="1.8" />
       <module name="deleteClients (1) (clients)" target="1.5" />
-      <module name="editClients" target="1.8" />
+      <module name="LambdaCustomer" target="1.8" />
+      <module name="LambdaDeleteCustomer" target="1.8" />
+      <module name="LambdaEditCustomer" target="1.8" />
+      <module name="LambdaSignInCustomer" target="1.8" />
+      <module name="LambdaSignUpCustomer" target="1.8" />
       <module name="modelaClients" target="1.8" />
       <module name="modelClients" target="1.8" />
       <module name="modelLunch" target="1.8" />
-      <module name="peopleBase" target="8" />
-      <module name="projectBase" target="1.5" />
-      <module name="signInClients" target="1.8" />
-      <module name="signUpClients" target="1.8" />
+      <module name="PeopleBase" target="8" />
+      <module name="ProjectBase" target="1.8" />
+      <module name="SignUp" target="1.8" />
+      <module name="SignUpCustomer" target="1.8" />
       <module name="webAlmuerzo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
