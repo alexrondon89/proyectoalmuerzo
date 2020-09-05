@@ -24,7 +24,6 @@ public class EditCustomerHandler implements RequestHandler<HashMap<String, Strin
             PeopleInterface customer = PeopleFactory.generateObject("1", input);
             CustomerCrud customerCrud = new CustomerCrud();
 
-            //CustomerArgumentsValidation.signInArgumentsValidation(input);
             customerCrud.editCustomer(customer);
 
             return GenerateResponse.generateJsonObjectResponse(customer.toString());
